@@ -1,0 +1,54 @@
+{
+	"span": 9,
+	"frames":[
+		{
+			"count": 34,
+			"labelUrl": "img/cpdct_1.png",
+			"amount": "名",
+			"project": "参与评估员"
+		},
+		{
+			"count": 3121,
+			"labelUrl": "img/cpdct_2.png",
+			"amount": "km2",
+			"project": "范围覆盖"
+		},
+		{
+			"count": 20,
+			"labelUrl": "img/cpdct_3.png",
+			"amount": "个",
+			"project": "走访村落"
+		},
+		{
+			"count": 501,
+			"labelUrl": "img/cpdct_4.png",
+			"amount": "人",
+			"project": "调研对象"
+		},
+		{
+			"count": 520,
+			"labelUrl": "img/cpdct_5.png",
+			"amount": "份",
+			"project": "收集问卷"
+		},
+		{
+			"count": 361,
+			"labelUrl": "img/cpdct_4.png",
+			"amount": "户",
+			"project": "调研贫困户"
+		},
+		{
+			"count": 119,
+			"labelUrl": "img/cpdct_4.png",
+			"amount": "户",
+			"project": "调研脱贫户"
+		},
+		{
+			"count": 97305,
+			"labelUrl": "img/cpdct_6.png",
+			"amount": "条",
+			"project": "收集有效信息"
+		}
+	],
+	"summary": "本次测评的第三方评估指数为99.18，精准扶贫工作成效良好。贫困户精准识别工作较好，识别准确率达到了99.72，贫困户精准退出工作较好，退出准确率达到了99.16，调研农户对帮扶工作较为满意，因村因户帮扶工作群众满意度达到了98.66。调研农户人均纯收入可观，贫困户年人均纯收入为3879元，脱贫户年人均纯收入为4832元。"
+}

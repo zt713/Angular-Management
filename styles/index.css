@@ -1,0 +1,336 @@
+/* reset */
+html,body {
+	width: 100%;
+	height: 100%;
+	font-family: "SimHei";
+}
+
+/* login.html */
+.login-page {
+	width: 100vw;
+	height: 100vh;
+	background: #36648B;
+}
+.code {
+	position: absolute;
+	right: 0;
+	width: 170px;
+}
+.code img {
+	width: 150px;
+	height: 195px;
+	margin: 10px;
+}
+.login-page h1 {
+	font-size: 56px;
+	text-align: center;
+	font-family: "SimHei";
+	text-shadow: 1px 1px 1px #fff;
+	padding-top: 20px;
+}
+.login-page h2 {
+	text-align: center;
+	padding-bottom: 40px;
+	color: #ccc;
+}
+.form-wrap {
+	width: 350px;
+	border: 1px solid #ddd;
+	margin: 0 auto;
+	box-shadow: 1px 1px 7px #ccc;
+	font-size: 16px;
+	background: #fff;
+}
+.form-wrap h3 {
+	padding: 20px 30px 20px 30px;
+	font-size: 25px;
+	color: #fff;
+	background: #444;
+	border-bottom: 1px solid #ddd;
+}
+.login .login-frame {
+	padding: 20px 0 20px 30px;
+}
+.login-frame label input[type='text'],
+.login-frame label input[type='password']
+ {
+	width: 76%;
+	margin: 5px 30px 0 0;
+	padding: 9px;
+	background: -webkit-gradient(
+				linear,
+				left top,
+				left 25,
+				from(#FFFFFF),
+				color-stop(4%, #EEEEEE),
+				to(#FFFFFF)
+		);
+	font-size: 16px;
+	border: 1px solid #E5E5E5;
+	display: block;
+}
+.bottom {
+	margin-top: 20px;
+	background: #444;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	font-size: 11px;
+	color: #fff;
+}
+.bottom label input[type='checkbox'] {
+	vertical-align: middle;
+}
+.bottom button {
+	width: 150px;
+}
+
+/* login.html */
+.layui-header {
+	overflow: hidden;
+	z-index: 0;
+}
+.layui-title {
+	color: #fff;
+	line-height: 75px;
+	padding-left: 25px;
+	font-size: 30px;
+	display: inline-block;
+}
+.nav-menu {
+	float: right;
+	height: 75px;
+	padding-right: 25px;
+}
+.nav-menu>li {
+	float: left;
+	line-height: 75px;
+	color: #fff;
+	padding: 0 15px;
+}
+.nav-menu>li:after {
+	content: "";
+	width: 10px;
+	height: 18px;
+	border-right: 1px solid #fff;
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav-menu li a {
+	color: #fff;
+	cursor: pointer;
+}
+
+
+/* alter弹出层 */
+#alter {
+	display: none;
+}
+#alter form {
+	padding: 10px 10px 0 0;
+}
+.layui-form-label {
+	text-align: left;
+	font-weight: 400;
+}
+.alter-btn {
+	background: #f7f7f7;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/* measurement.html */
+.layui-card {
+	border: 3px solid #ccc;
+}
+.left-frame {
+	float: left;
+	padding: 10px;
+	width: 615px;
+}
+.left-frame:after {
+	content: "";
+	display: block;
+	clear: both
+}
+.layui-card-body:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.spentime {
+	color: #ff6838;
+	font-size: 30px;
+	font-weight: bold;
+}
+.left-frame>li {
+	width: 143px;
+	height: 154px;
+	background: #f2f2f2;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding: 30px 8px 0;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.left-frame>li:hover {
+	background: #e3e3e3;
+}
+.left-frame li span {
+	font-size: 40px;
+	color: #000;
+	font-weight: bolder;
+}
+.left-frame li p {
+	height: 28px;
+	line-height: 28px;
+	color: #000;
+	font-size: 16px;
+	margin-top: 15px;
+}
+.left-frame li p img {
+	margin-right: 10px;
+	vertical-align: top;
+}
+.left-frame li div {
+	height: 24px;
+	width: 100%;
+	line-height: 24px;
+	background: #009688;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.right-frame {
+	height: 345px;
+	line-height: 30px;
+	padding: 30px;
+	color: #fff;
+	background: #009688;
+	font-size: 18px;
+	text-indent: 2em;
+	overflow: hidden;
+}
+/* questions.html */
+.form-title {
+	padding: 13px 15px 12px 10px;
+	background: rgb(235, 245, 238);
+}
+.form-title span {
+	line-height: 35px;
+	padding-left: 10px;
+}
+.form-title span:before {
+	content: '';
+	display: inline-block;
+	height: 18px;
+	width: 10px;
+	border-left: 3px solid #b8a76a;
+	vertical-align: middle;
+}
+.btn-group {
+	display: inline-block;
+	float: right;
+	padding-right: 25px;
+}
+.form-title:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.template-text {
+	width: 110px;
+	height: 38px;
+	padding: 9px 15px;
+}
+.template {
+	width: 198px;
+	height: 36px;
+}
+.input-item {
+	padding: 15px 18px 12px 10px;
+	border-top: 1px solid rgb(223, 220, 204);
+	background: rgb(234, 245, 238);
+}
+.input-item button {
+	float: right;
+	padding-right: 25px;
+}
+.layui-table {
+	margin: 0;
+}
+.layui-table td {
+	height: 160px;
+}
+.layui-table-cell {
+	display: flex;
+	align-items: center;
+	overflow: auto;
+	white-space: normal;
+	text-overflow: initial;
+	height: inherit;
+	line-height: 1.4;
+	vertical-align: middle;
+	overflow-y: hidden;
+	color: #000;
+}
+.layui-table-body {
+	overflow-x: hidden;
+}
+.custom-btn {
+	padding: 12px 12px;
+	color: #fff;
+	background: #ffba41;
+	cursor: pointer;
+	vertical-align: middle;
+}
+#quesAll {
+	display: none;
+}
+.layui-laypage-pullRight {
+	float: right;
+}
+#details {
+	display: none;
+}
+.layui-table-click {
+	background: #FFE4C4;
+}
+.layui-field-title {
+	padding: 0 20px 0;
+}
+.layui-field-title .layui-input-block {
+	margin-left: 0;
+	padding: 20px 35px 10px;
+}
+.layui-table .layui-form-checkbox {
+	opacity: 1;
+}
+/* area.html */
+
+/* analysis.html */
+.analysis-wrap {
+  width: 100%;
+  height: 100%;
+  background: #fff3f1;
+}
+
+
+/* dashboard.html */
+.dashboard-wrap {
+  width: 100%;
+  height: 100%;
+  background: #fff3f1;
+}
+.right-chart {
+  width: 60%;
+  float: right;
+}
+.echart-dashboard {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}

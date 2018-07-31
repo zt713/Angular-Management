@@ -1,0 +1,26 @@
+<div class="alter-wrap">
+	<form name="registerForm" novalidate>
+		<div class="register-frame">
+			<label>
+				<span class="regi-mark">原密码：</span>
+				<input type="number" max-length="11" ng-model="admin.registerPhone" name="registerPhone" placeholder="请输入原密码" required>
+			</label>
+			<span class="tips" ng-show="registerForm.registerPhone.$dirty && registerForm.registerPhone.$error.required">账号不能为空</span>
+			<span class="tips" ng-show="registerForm.registerPhone.$error.maxLength">账号最多只有11位数字</span>
+			<span class="tips"  ng-show="registerForm.registerPhone.$error.number">账号只能输入数字</span>
+			<label>
+				<span class="regi-mark">新密码：</span>
+				<input type="password" ng-model="admin.registerPwd" name="registerPasswd" placeholder="请输入新密码" required>
+			</label>
+			<span class="tips"  ng-show="registerForm.registerPasswd.$dirty && registerForm.registerPasswd.$error.required">密码不能为空</span>
+			<label>
+				<span class="regi-mark">确认密码:</span>
+				<input type="password"  ng-model="admin.repeatPwd" name="repeatPasswd" placeholder="请再次输入新密码" required>
+			</label>
+			<span class="tips" ng-show="registerForm.repeatPasswd.$dirty && registerForm.repeatPasswd.$error.required">请再次确认密码</span>
+		</div>
+		<div class="alter-btn">
+			<button type="button" class="layui-btn layui-btn-primary" ng-disabled="registerForm.$invalid" ng-click="submitRegister()">保存</button>
+		</div>
+	</form>
+</div>

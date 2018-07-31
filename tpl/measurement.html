@@ -1,0 +1,26 @@
+<div class="layui-collapse" ng-controller="MeaController">
+  	<div class="layui-colla-item">
+    	<h2 class="layui-colla-title">2017年扶贫开发成效第三方评估</h2>
+    	<div class="layui-colla-content layui-show">
+    		<div class="layui-card">
+    			<div class="layui-card-body">
+			  		<ul class="left-frame">
+			  			<h3>本次测评历时<font class="spentime">{{meaObj.span}}</font>天</h3>
+			  			<li ng-repeat="item in items">
+			  				<a ui-sref="measure" target="_blank">
+				  				<span>{{item.count}}</span>
+				  				<p>
+				  					<img ng-src="{{item.labelUrl}}" alt="1"/>{{item.amount}}
+				  				</p>
+				  				<div>{{item.project}}</div>
+				  			</a>
+			  			</li>
+			  		</ul>
+				  	<div class="right-frame">
+				  		{{meaObj.summary}}
+				  	</div>
+				</div>
+			</div>
+    	</div>
+  	</div>
+</div>
